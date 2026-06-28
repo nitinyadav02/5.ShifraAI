@@ -285,7 +285,7 @@
                 status.innerText = "Thinking...";
                 
 
-                const res = await fetch("http://localhost:8000/api/assistant/ask" , {
+                const res = await fetch("https://five-shifraaiserver-a56x.onrender.com/api/assistant/ask" , {
                     method:"POST",
                     headers:{
                         "Content-Type":
